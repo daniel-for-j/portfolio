@@ -77,43 +77,58 @@ const Projects = () => {
                 <h2 className="projects-title reveal">Featured Projects</h2>
                 <div className="projects-track" ref={trackRef}>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 0)}>
+                        <div className="project-preview">
+                            <iframe src="https://bhuorder.com" title="bhuorder.com"></iframe>
+                        </div>
                         <div className="project-content">
                             <h3>bhuorder.com</h3>
                             <p>Campus Delivery</p>
                             <p className="role">Backend API Engineer</p>
-                            <a href="https://bhuorder.com" target="_blank" rel="noreferrer" className="project-link">Preview Site</a>
+                            <a href="https://bhuorder.com" target="_blank" rel="noreferrer" className="project-link">Visit Site</a>
                         </div>
                     </div>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 1)}>
+                        <div className="project-preview">
+                            <iframe src="https://nplinkup.com" title="nplinkup.com"></iframe>
+                        </div>
                         <div className="project-content">
                             <h3>nplinkup.com</h3>
                             <p>Dating Site</p>
                             <p className="role">Backend API Engineer</p>
-                            <a href="https://nplinkup.com" target="_blank" rel="noreferrer" className="project-link">Preview Site</a>
+                            <a href="https://nplinkup.com" target="_blank" rel="noreferrer" className="project-link">Visit Site</a>
                         </div>
                     </div>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 2)}>
+                        <div className="project-preview">
+                            <iframe src="https://vibetests.co" title="vibetests.co"></iframe>
+                        </div>
                         <div className="project-content">
                             <h3>vibetests.co</h3>
                             <p>Online Test platform for individuals and companies.</p>
                             <p className="role">Backend Developer</p>
-                            <a href="https://vibetests.co" target="_blank" rel="noreferrer" className="project-link">Preview Site</a>
+                            <a href="https://vibetests.co" target="_blank" rel="noreferrer" className="project-link">Visit Site</a>
                         </div>
                     </div>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 3)}>
+                        <div className="project-preview">
+                            <iframe src="https://soar.co" title="soar.co"></iframe>
+                        </div>
                         <div className="project-content">
                             <h3>soar.co</h3>
                             <p>Online Academy/Community.</p>
                             <p className="role">Full Stack Development</p>
-                            <a href="https://soar.co" target="_blank" rel="noreferrer" className="project-link">Preview Site</a>
+                            <a href="https://soar.co" target="_blank" rel="noreferrer" className="project-link">Visit Site</a>
                         </div>
                     </div>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 4)}>
+                        <div className="project-preview">
+                            <iframe src="https://tntvnetwork.com.ng" title="tntvnetwork.com.ng"></iframe>
+                        </div>
                         <div className="project-content">
                             <h3>tntvnetwork.com.ng</h3>
                             <p>News site.</p>
                             <p className="role">Highlight clean content delivery</p>
-                            <a href="https://tntvnetwork.com.ng" target="_blank" rel="noreferrer" className="project-link">Preview Site</a>
+                            <a href="https://tntvnetwork.com.ng" target="_blank" rel="noreferrer" className="project-link">Visit Site</a>
                         </div>
                     </div>
                 </div>
