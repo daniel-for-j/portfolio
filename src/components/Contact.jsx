@@ -28,11 +28,11 @@ const Contact = () => {
                         <span className="link-label">📞 Phone</span>
                         <span className="link-value">09032497799</span>
                     </a>
-                    <a href="https://github.com/" target="_blank" rel="noreferrer" className="contact-link">
+                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="contact-link">
                         <span className="link-label">◆ GitHub</span>
                         <span className="link-value">View Profile</span>
                     </a>
-                    <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="contact-link">
+                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="contact-link">
                         <span className="link-label">◆ LinkedIn</span>
                         <span className="link-value">Connect</span>
                     </a>

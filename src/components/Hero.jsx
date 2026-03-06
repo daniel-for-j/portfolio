@@ -12,10 +12,10 @@ const Hero = () => {
                     <a href="#contact" className="hero-btn secondary">Get in Touch</a>
                 </div>
                 <div className="hero-socials">
-                    <a href="https://github.com/" target="_blank" rel="noreferrer" className="hero-social-link">
+                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="hero-social-link">
                         ◆ GitHub
                     </a>
-                    <a href="https://linkedin.com/" target="_blank" rel="noreferrer" className="hero-social-link">
+                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="hero-social-link">
                         ◆ LinkedIn
                     </a>
                     <a href="mailto:danieloluwasegun1000@gmail.com" className="hero-social-link">
