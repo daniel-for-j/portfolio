@@ -6,7 +6,7 @@ const About = () => {
             <div className="container">
                 <div className="glass-card about-card reveal">
                     <div className="about-image">
-                        <img src="/headshot.jpg" alt="Segun Daniel" id="profile-img" />
+                        <img src="/headshot.jpg" alt="Portrait of Segun Daniel, Software Developer" id="profile-img" loading="lazy" width="280" height="280" />
                     </div>
                     <div className="about-content">
                         <span className="section-label">About Me</span>

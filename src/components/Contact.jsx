@@ -20,19 +20,19 @@ const Contact = () => {
                 <h2>Get in Touch</h2>
                 <p className="contact-subtitle">Have a project in mind or want to collaborate? Reach out!</p>
                 <div className="contact-links">
-                    <a href="mailto:danieloluwasegun1000@gmail.com" className="contact-link" onClick={(e) => handleCopy(e, 'danieloluwasegun1000@gmail.com')}>
+                    <a href="mailto:danieloluwasegun1000@gmail.com" className="contact-link" onClick={(e) => handleCopy(e, 'danieloluwasegun1000@gmail.com')} aria-label="Copy email address or send email">
                         <span className="link-label">✉️ Email</span>
                         <span className="link-value">danieloluwasegun1000@gmail.com</span>
                     </a>
-                    <a href="tel:09032497799" className="contact-link" onClick={(e) => handleCopy(e, '09032497799')}>
+                    <a href="tel:09032497799" className="contact-link" onClick={(e) => handleCopy(e, '09032497799')} aria-label="Copy phone number or call">
                         <span className="link-label">📞 Phone</span>
                         <span className="link-value">09032497799</span>
                     </a>
-                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="contact-link">
+                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="contact-link" aria-label="Visit Segun Daniel's GitHub Profile">
                         <span className="link-label">◆ GitHub</span>
                         <span className="link-value">View Profile</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="contact-link">
+                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="contact-link" aria-label="Visit Segun Daniel's LinkedIn Profile">
                         <span className="link-label">◆ LinkedIn</span>
                         <span className="link-value">Connect</span>
                     </a>

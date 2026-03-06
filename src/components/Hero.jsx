@@ -12,13 +12,13 @@ const Hero = () => {
                     <a href="#contact" className="hero-btn secondary">Get in Touch</a>
                 </div>
                 <div className="hero-socials">
-                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="hero-social-link">
+                    <a href="https://github.com/daniel-for-j/" target="_blank" rel="noreferrer" className="hero-social-link" aria-label="Visit Segun Daniel's GitHub Profile">
                         ◆ GitHub
                     </a>
-                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="hero-social-link">
+                    <a href="https://www.linkedin.com/in/segun-daniel-832b8b24b" target="_blank" rel="noreferrer" className="hero-social-link" aria-label="Visit Segun Daniel's LinkedIn Profile">
                         ◆ LinkedIn
                     </a>
-                    <a href="mailto:danieloluwasegun1000@gmail.com" className="hero-social-link">
+                    <a href="mailto:danieloluwasegun1000@gmail.com" className="hero-social-link" aria-label="Send an email to Segun Daniel">
                         ◆ Email
                     </a>
                 </div>
