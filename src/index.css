@@ -21,10 +21,13 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--primary-font);
-    overflow-x: hidden;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     position: relative;
+}
+
+#root {
+    overflow-x: hidden;
 }
 
 /* Noise overlay */
@@ -272,14 +275,14 @@ p {
 .projects-track {
     display: flex;
     width: 500vw;
-    height: 60vh;
+    height: 70vh;
     align-items: center;
     will-change: transform;
 }
 
 .project-card {
     width: 60vw;
-    height: 70vh;
+    height: 100%;
     margin: 0 20vw;
     /* Provides exactly 100vw total per item */
     display: flex;
@@ -301,6 +304,20 @@ p {
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.iframe-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    padding: 20px;
+    border: 1px dashed rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
 }
 
 .project-preview iframe {
@@ -490,7 +507,7 @@ p {
     .project-card {
         width: 85vw;
         margin: 0 7.5vw;
-        height: 70vh;
+        height: 100%;
     }
 
     .project-preview {

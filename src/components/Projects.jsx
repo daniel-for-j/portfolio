@@ -89,7 +89,9 @@ const Projects = () => {
                     </div>
                     <div className="glass-card project-card" ref={(el) => setCardRef(el, 1)}>
                         <div className="project-preview">
-                            <iframe src="https://nplinkup.com" title="nplinkup.com"></iframe>
+                            <div className="iframe-fallback">
+                                <span>Interactive preview blocked by site security.<br />Please visit the site directly.</span>
+                            </div>
                         </div>
                         <div className="project-content">
                             <h3>nplinkup.com</h3>
